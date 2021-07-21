@@ -9,9 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@knapsack-cloud/gumgum-styles": "0.0.3",
+    "gumdrops": "^1.14.0",
+    "gumgum-design": "^1.9.2",
     "next": "11.0.1",
     "react": "17.0.2",
-    "react-dom": "17.0.2"
+    "react-dom": "17.0.2",
+    "sass": "^1.35.2"
   },
   "devDependencies": {
     "eslint": "7.30.0",

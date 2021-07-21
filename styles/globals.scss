@@ -1,0 +1,60 @@
+@import "~gumgum-design/styles/scss/index";
+
+// Rename and add to design system
+.toggleButton-wrapper {
+  position: absolute;
+  background: transparent;
+  top: 0;
+  right: -2rem;
+  height: 5rem;
+  width: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.toggleButton {
+  visibility: hidden;
+  position: relative;
+  width: 1.25rem;
+  height: 2rem;
+  z-index: 10000;
+  border: none;
+  cursor: pointer;
+  background: white;
+  outline: none;
+  border-radius: 0 4px 4px 0;
+  text-align: center;
+  color: $gg-light-5;
+
+  &:before {
+    content: "\f053";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &:hover,
+  &:focus {
+    color: $gg-dark-2;
+  }
+}
+
+.gds-nav__side--collapsed .toggleButton {
+  &:before {
+    content: "\f054";
+  }
+}
+
+.toggleButton-wrapper:hover .toggleButton {
+  visibility: visible;
+}
+
+// Add to Design System
+.gds-breadcrumb__link {
+  text-transform: capitalize;
+}
