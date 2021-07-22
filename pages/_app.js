@@ -4,6 +4,7 @@ import { AppWrapper } from "../context/state";
 import Header from "../components/layout/Header";
 import Main from "../components/layout/Main";
 import Left from "../components/layout/Left";
+import ModalWrapper from "../components/common/modal/modalWrapper";
 // import Right from "../components/layout/Right";
 
 function MyApp({ Component, pageProps }) {
@@ -18,6 +19,7 @@ function MyApp({ Component, pageProps }) {
         {/* <Right /> */}
         {/* <div className="gds-app-layout__bottom">Not used</div> */}
       </div>
+      <ModalWrapper />
     </AppWrapper>
   );
 }
