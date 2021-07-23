@@ -14,7 +14,14 @@ export default function Breadcrumbs() {
       setBreadcrumbs(null);
       return null;
     } else if (router) {
-      const linkPath = router.asPath.split("/");
+      let linkPath = router.asPath.split("/");
+      console.log("fix issue", linkPath);
+
+      // hide query part of url
+      linkPath = linkPath.filter(function (item) {
+        return item.indexOf("?") !== 0;
+      });
+
       linkPath.shift();
 
       const pathArray = linkPath.map((path, i) => {

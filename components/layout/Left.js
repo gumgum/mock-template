@@ -11,6 +11,11 @@ const navItems = [
     url: "/",
     icon: "home",
   },
+  {
+    title: "About",
+    url: "/about",
+    icon: "user-astronaut",
+  },
 ];
 
 export default function Left() {
