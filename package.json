@@ -9,7 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@knapsack-cloud/gumgum-styles": "0.0.3",
     "gumdrops": "^1.14.0",
     "gumgum-design": "^1.9.2",
     "next": "11.0.1",

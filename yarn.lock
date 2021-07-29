@@ -113,18 +113,6 @@
   resolved "https://registry.yarnpkg.com/@humanwhocodes/object-schema/-/object-schema-1.2.0.tgz#87de7af9c231826fdd68ac7258f77c429e0e5fcf"
   integrity sha512-wdppn25U8z/2yiaT6YGquE6X8sSv7hNMWSXYSSU1jGv/yd6XqjXgTDJ8KP4NgjTXfJ3GbRjeeb8RTV7a/VpM+w==
 
-"@knapsack-cloud/gumgum-design-tokens@^0.0.3":
-  version "0.0.3"
-  resolved "https://npm.pkg.github.com/download/@knapsack-cloud/gumgum-design-tokens/0.0.3/c4d98b6771682dea07bf2fb1b22eea83ed39af0bc00d4249ac8df379f5093397#bf3d79a3701d94f67a54492fb3e1d2c1c52462df"
-  integrity sha512-zuP8g+eNzLVQ2Jlgm/imuUS7+SDSPLNQWcjU+BsR83wotiaYkZ6u4yFHOpgiCzVPQkl6W8tuc4LYA1zHZUA+Hw==
-
-"@knapsack-cloud/gumgum-styles@0.0.3":
-  version "0.0.3"
-  resolved "https://npm.pkg.github.com/download/@knapsack-cloud/gumgum-styles/0.0.3/57a09d03b81e9c4130c790295e4515c0b1a15920c8d18c01191a28248f47d540#16426c18b54d3bb23a582afb591e02e534b4355e"
-  integrity sha512-pB+/o9znY+jdRFdRC2vQBU70mXlDtIFi8LuCYrSu0TTgQMK5NpCTbU4cTDFWpVq2jV0S10tFqMFwRqY/TapALw==
-  dependencies:
-    "@knapsack-cloud/gumgum-design-tokens" "^0.0.3"
-
 "@next/env@11.0.1":
   version "11.0.1"
   resolved "https://registry.yarnpkg.com/@next/env/-/env-11.0.1.tgz#6dc96ac76f1663ab747340e907e8933f190cc8fd"
