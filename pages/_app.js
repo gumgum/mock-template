@@ -20,12 +20,16 @@ function MyApp({ Component, pageProps }) {
         {/* <Right /> */}
         {/* <div className="gds-app-layout__bottom">Not used</div> */}
       </div>
-      <ModalWrapper
-        isOpen={!!router.query.modalItem}
-        title={router.query.modalItem}
-        content={router.query.modalItem}
-        global={router.query.global}
-      />
+
+      {/* Prevent the modal from loading each time when not needed */}
+      {!!router.query.modalItem && (
+        <ModalWrapper
+          isOpen={!!router.query.modalItem}
+          title={router.query.modalItem}
+          content={router.query.modalItem}
+          global={router.query.global}
+        />
+      )}
     </AppWrapper>
   );
 }

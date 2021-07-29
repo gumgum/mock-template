@@ -15,7 +15,6 @@ export default function Breadcrumbs() {
       return null;
     } else if (router) {
       let linkPath = router.asPath.split("/");
-      console.log("fix issue", linkPath);
 
       // hide query part of url
       linkPath = linkPath.filter(function (item) {

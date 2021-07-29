@@ -16,6 +16,7 @@ export default function About() {
           },
         }}
         as={`/examples/modal`}
+        passHref
       >
         <a className="gds-button gds-button--xs gds-button--primary">
           Add Category
