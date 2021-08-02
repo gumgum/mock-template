@@ -33,10 +33,10 @@ export default function Left() {
     ${leftNavCollapsed ? "gds-nav__side--collapsed" : ""}
     `}
     >
-      <div className="toggleButton-wrapper">
+      <div className="gds-nav__side--collapse-wrapper">
         <button
           onClick={() => setLeftNavCollapsed(!leftNavCollapsed)}
-          className="toggleButton"
+          className="gds-nav__side--collapse-button"
         ></button>
       </div>
       <div className="gds-nav__close-wrapper">

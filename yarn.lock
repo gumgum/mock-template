@@ -1414,10 +1414,10 @@ gumdrops@^1.14.0:
     classnames "^2.2.6"
     react-modal "^3.11.2"
 
-gumgum-design@^1.9.2:
-  version "1.9.2"
-  resolved "https://registry.yarnpkg.com/gumgum-design/-/gumgum-design-1.9.2.tgz#be74d412dc1bd588c0bae2cfb77a88ce76df88b3"
-  integrity sha512-t1axD9B8e6H5+IeEbGo/NIOeo57BFkWdv2yd+mXptLwqVu6O6BBm5pijrDarf1MUDrrI2kXcKpIBQDu+JH1VLQ==
+gumgum-design@^1.9.3:
+  version "1.9.3"
+  resolved "https://registry.yarnpkg.com/gumgum-design/-/gumgum-design-1.9.3.tgz#8795f99536357f324a40b88eed6c24d8dab786f9"
+  integrity sha512-wS7MMIgexFH9FcVEblWzO4OLuCkVjr0CTKJmae3lKgCRMDQEoK/jqcNjQquzbIZfWThsag3zeTgbcvv1Ddw7bQ==
   dependencies:
     "@fontsource/public-sans" "^4.5.0"
     "@fortawesome/fontawesome-free" "^5.15.1"
