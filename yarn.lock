@@ -74,10 +74,10 @@
   resolved "https://registry.yarnpkg.com/@fontsource/public-sans/-/public-sans-4.5.0.tgz#ba15c59ae0602e0dc7da4063ee83a061b3be5a32"
   integrity sha512-fSVbcSGKDIZKRuu1Vd1Ky8RFZdMDsIWXqTAKJT2qgXTuNhb+4EjlQQWTfjB5QlFN+fMpMzvXWOQJrIYb0DtCsA==
 
-"@fortawesome/fontawesome-free@^5.15.1":
-  version "5.15.3"
-  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-free/-/fontawesome-free-5.15.3.tgz#c36ffa64a2a239bf948541a97b6ae8d729e09a9a"
-  integrity sha512-rFnSUN/QOtnOAgqFRooTA3H57JLDm0QEG/jPdk+tLQNL/eWd+Aok8g3qCI+Q1xuDPWpGW/i9JySpJVsq8Q0s9w==
+"@fortawesome/fontawesome-free@^6.0.0":
+  version "6.1.0"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-free/-/fontawesome-free-6.1.0.tgz#db162f63c6fdb3ecc6d44de3bbc8ed178390d709"
+  integrity sha512-OgM74M6+Q7BuKAj8r+VfzwjnIGZrY62R4ipbiDvBW4FA0mLnB3yeuV/2bW63j+zppGyTvBp/3jqXp9ZXy43nFw==
 
 "@hapi/accept@5.0.2":
   version "5.0.2"
@@ -1414,13 +1414,13 @@ gumdrops@^1.14.0:
     classnames "^2.2.6"
     react-modal "^3.11.2"
 
-gumgum-design@^1.9.3:
-  version "1.9.3"
-  resolved "https://registry.yarnpkg.com/gumgum-design/-/gumgum-design-1.9.3.tgz#8795f99536357f324a40b88eed6c24d8dab786f9"
-  integrity sha512-wS7MMIgexFH9FcVEblWzO4OLuCkVjr0CTKJmae3lKgCRMDQEoK/jqcNjQquzbIZfWThsag3zeTgbcvv1Ddw7bQ==
+gumgum-design@^2.0.9:
+  version "2.0.9"
+  resolved "https://registry.yarnpkg.com/gumgum-design/-/gumgum-design-2.0.9.tgz#337d4a22278ece3f47d24c8659453258174f887e"
+  integrity sha512-aFexMxjc9GhhPc+MM4vWpWLeBxgZV4EsKzqHQ+9S5EIygQpazwDmLcRSgJSfyhwlE/0/HXuT8ebu31hco8sy/w==
   dependencies:
     "@fontsource/public-sans" "^4.5.0"
-    "@fortawesome/fontawesome-free" "^5.15.1"
+    "@fortawesome/fontawesome-free" "^6.0.0"
 
 has-bigints@^1.0.1:
   version "1.0.1"
